@@ -1,0 +1,39 @@
+.input_box{
+    margin-top: 2rem;
+    width: 50%;
+}
+.final_note{
+    margin-top: 2rem;
+    width: 50%;
+}
+#clear_btn, #sub_btn{
+    margin-top: 25px;
+}
+.special_container{
+    width: 100%;
+    height: fit-content;
+}
+.cards{
+    display: flex;
+    height: fit-content;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+.cards div{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 25px 25px;
+    height: 10rem;
+    width: 15rem;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.cards div h2{
+    text-align: center;
+    color: red;
+}
+
+.cards div h3{
+    margin-top: 25px;
+}
+
